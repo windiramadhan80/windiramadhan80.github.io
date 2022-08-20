@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Windi Ramadhan</title>
+
+  <!-- load all Font Awesome styles + include all v5 backwards compatibility by default -->
+  <link href="node_modules/@fortawesome/fontawesome-free/css/all.csss" rel="stylesheet">
+  <!-- our project just needs Font Awesome Solid + Brands -->
+  <link href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet">
+  <link href="node_modules/@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet">
+  <link href="node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
+  <!-- update existing v5 CSS to use v6 icons and assets -->
+  <link href="node_modules/@fortawesome/fontawesome-free/css/v5-font-face.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- my css -->
+  <link href="dist/output.css" rel="stylesheet"/>
+</head>
+<body>
+  
+  <!-- Header Start -->
+  <header class="w-full top-0 left-0 absolute flex px-4 py-4 items-center">
+    <div class="container mx-auto md:px-10 flex">
+    <div class="w-full text-lg uppercase font-bold text-primary flex items-center">
+      <a href="#home">Windi Ramadhan</a>
+    </div>
+    <div class="flex items-center justify-end">
+      <button type="submit" class="md:hidden" id="humberger">
+        <span class="humberger-line origin-top-left transition duration-300"></span>
+        <span class="humberger-line transition duration-300"></span>
+        <span class="humberger-line origin-bottom-left transition duration-300"></span>
+      </button>
+    </div>
+      <nav class="absolute md:relative hidden right-0 top-full w-[120px] z-10 bg-slate-100 px-4 py-2 rounded-lg shadow-lg text-sm md:w-full md:flex md:bg-transparent md:rounded-none md:shadow-none md:px-0">
+        <ul class="md:flex md:w-full md:justify-end">
+          <li class="mb-1 md:mx-4 md:font-semibold md:text-base"><a href="#home" class="hover:text-primary">Beranda</a></li>
+          <li class="mb-1 md:mx-4 md:font-semibold md:text-base"><a href="#about" class="hover:text-primary">About</a></li>
+          <li class="mb-1 md:mx-4 md:font-semibold md:text-base"><a href="#pendidikan" class="hover:text-primary">Pendidikan</a></li>
+          <li class="mb-1 md:ml-4 md:font-semibold md:text-base"><a href="" class="hover:text-primary">Masuk</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+  </header>
+  <!-- Header End -->
+
+  <!-- Hero Section Start -->
+  <section id="home" class="w-full mb-10 justify-center">
+    <div class="container flex flex-wrap items-center justify-center mx-auto px-4 mt-20">
+    <div class="mb-5 mt-20  relative sm:w-2/4 lg:w-2/5">
+      <h2 class="font-semibold text-xs text-indigo-600 lg:text-lg">Halo semuanya, perkenalkan saya</h2>
+      <h3 class="font-bold uppercase text-2xl text-slate-700 lg:text-4xl">windi ramadhan</h3>
+      <h3 class="font-medium text-xs text-slate-600 mb-2 lg:text-lg">Librarian & Programmer</h3>
+      <p class="text-sm text-secondary mb-6 lg:text-base">Saya desainer grafis berpengalaman yang telah lebih dari 5 tahun bekerja sebagai freelance, pustakawan, front end web developer, dan graphic design.</p>
+      <a href="#home" class="btn-primary hover:opacity-90 hover:shadow-lg lg:text-base lg:my-8">Selengkapnya</a>
+    </div>
+    <div class="relative mt-20 flex justify-center md:justify-end sm:w-2/5 lg:justify-end" >
+      <img src="dist/img/foto-profile.png" alt="Windi Ramadhan" class="w-[85%] sm:w-[90%] md:w-[70%] lg:w-[60%]">
+    </div>
+  </div>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- About Section Start -->
+  <section id="about" class="w-full mb-10 justify-center">
+    <div class="container base md:items-center lg:items-start">
+      <div class="mb-5 pt-20 relative md:my-auto justify-center sm:w-2/5 md:w-2/4 lg:w-2/5">
+        <h3 class="judul lg:text-2xl">Tentang Saya</h3>
+        <p class="text-sm text-secondary lg:text-base">Saya menguasai berbagai aplikasi diantaranya Adobe After Effect, Adobe Photoshop, Adobe Ilustrator, Microsoft Visual Studio Code, dan Slims (Librarian System Management). Selain itu saya juga mempunyai jiwa kepemimpinan yang professional.</p>
+        <div class="mt-2 w-full text-center lg:mt-4 md:text-left">
+            <a href="">      
+            <img class="w-[45px] m-1 grayscale hover:rotate-12 hover:grayscale-0 hover:shadow-lg transition duration-300 inline-block sm:w-[15%] md:w-[10%] lg:mx-3" src="dist/img/ae.png" alt="">
+            </a>
+            <a href="" class="w-full">
+            <img class="w-[45px] m-1 grayscale hover:rotate-12 hover:grayscale-0 hover:shadow-lg transition duration-300 inline-block sm:w-[15%] md:w-[10%] lg:mx-3" src="dist/img/ai.png" alt="">
+            </a>
+            <a href="">
+            <img class="w-[45px] m-1 grayscale hover:rotate-12 hover:grayscale-0 hover:shadow-lg transition duration-300 inline-block sm:w-[15%] md:w-[10%] lg:mx-3" src="dist/img/ap.png" alt="">
+            </a>
+            <a href="">
+            <img class="w-[45px] m-1 grayscale hover:rotate-12 hover:grayscale-0 hover:shadow-lg transition duration-300 inline-block sm:w-[15%] md:w-[10%] lg:mx-3" src="dist/img/ps.png" alt="">
+            </a>
+        </div>
+      </div>
+      <div class="w-full pt-20 relative sm:w-2/4 md:w-2/5 sm:flex justify-end">
+        <div class="">
+          <div class="media-sosial">
+            <h3 class="judul lg:text-2xl">Media Sosial</h3>
+          </div>
+          <div class="flex flex-wrap justify-center">
+            <div class="text-sm lg:text-base">
+              <a href="" class="block text-left text-secondary hover:text-primary"><i class="fa-solid fa-calendar-days text-primary text-lg"></i> Sabtu, 10 Januari 1998</a>
+              <a href="" class="block text-secondary hover:text-primary"><i class="fa-solid fa-phone text-primary text-lg"></i> 0857 5908 1973</a>
+              <a href="" class="block text-secondary hover:text-primary"><i class="fa-solid fa-envelope text-primary text-lg"></i> windiramadhan80@gmail.com</a>
+              <a href="" class="block text-secondary hover:text-primary"><i class="fa-solid fa-house text-primary text-lg"></i> Ciamis Jawa Barat Indonesia</a>
+            </div>
+          </div>
+          <div class="text-center my-5">
+            <a href="" class="icon-primary hover:bg-primary hover:text-slate-100"><i class="fa-brands fa-facebook-f mx-2"></i></a>
+            <a href="" class="icon-primary hover:bg-primary hover:text-slate-100"><i class="fa-brands fa-instagram mx-2"></i></a>
+            <a href="" class="icon-primary hover:bg-primary hover:text-slate-100"><i class="fa-brands fa-linkedin-in mx-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+
+  <!-- Pendidikan Section Start -->
+  <section id="pendidikan" class="w-full py-5 justify-center bg-primary opacity-90">
+    <div class="container mx-auto">
+    
+    </div>
+    <div class="container base">
+      <div class="my-5 relative flex flex-wrap justify-center">
+        <div class="w-full">
+        <h3 class="text-center text-xl uppercase font-bold text-slate-200 pt-8 pb-6 mx-auto lg:text-2xl">Pendidikan</h3>
+        </div>
+        <div class="bg-slate-200 mx-3 rounded-lg border-2 border-solid border-slate-100 shadow-lg inline-block my-3 sm:w-64 md:w-[30%] lg:w-[30%]">
+          <div class="w-full">
+            <img src="dist/img/pendidikan/pendidikan-1.jpg" class="w-full bg-cover" alt="">
+          </div>
+          <h4 class="text-base font-bold text-secondary px-3 pt-2 pb-1">Universitas Padjadjaran</h4>
+          <p class="text-sm font-medium text-slate-500 px-3">Lulusan Januari 2022</p>
+          <p class="text-sm font-medium text-slate-500 px-3">Perpustakaan dan Sains Informasi</p>
+          <span class="block my-6">
+          <a href="#home" class="btn-primary mx-3 my-10 hover:opacity-90 hover:shadow-lg">Selengkapnya</a>
+          </span>
+        </div>      
+        <div class="bg-slate-200 mx-3 rounded-lg border-2 border-solid border-slate-100 shadow-lg inline-block my-3 sm:w-64 md:w-[30%] lg:w-[30%]">
+          <div class="w-full">
+            <img src="dist/img/pendidikan/pendidikan-2.jpg" class="w-full bg-cover" alt="">
+          </div>
+          <h4 class="text-base font-bold text-secondary px-3 pt-2 pb-1">MAN Cijantung</h4>
+          <p class="text-sm font-medium text-slate-500 px-3">Lulusan Mei 2016</p>
+          <p class="text-sm font-medium text-slate-500 px-3">Ilmu Pengetahuan Sosial</p>
+          <span class="block my-6">
+          <a href="#home" class="btn-primary mx-3 my-10 hover:opacity-90 hover:shadow-lg">Selengkapnya</a>
+          </span>
+        </div>
+        <div class="bg-slate-200 mx-3 rounded-lg border-2 border-solid border-slate-100 shadow-lg inline-block my-3 sm:w-64 md:w-[30%] lg:w-[30%]">
+          <div class="w-full">
+            <img src="dist/img/pendidikan/pendidikan-3.jpg" class="w-full bg-cover" alt="">
+          </div>
+          <h4 class="text-base font-bold text-secondary px-3 pt-2 pb-1">SMPN 1 Tambaksari</h4>
+          <p class="text-sm font-medium text-slate-500 px-3">Lulusan Mei 2014</p>
+          <p class="text-sm font-medium text-slate-500 px-3">Kelas B</p>
+          <span class="block my-6">
+          <a href="#home" class="btn-primary mx-3 my-10 hover:opacity-90 hover:shadow-lg">Selengkapnya</a>
+          </span>
+        </div>
+      </div>
+      <div class="my-5 relative flex flex-wrap justify-center pb-8">
+        <div class="w-full">
+        <h3 class="text-center text-xl uppercase font-bold text-slate-200 pt-8 pb-6 mx-auto lg:text-2xl">pengalaman</h3>
+        </div>
+        <div class="bg-slate-200 mx-3 rounded-lg border-2 border-solid border-slate-100 shadow-lg inline-block my-3 sm:w-64 md:w-[30%] lg:w-[30%]">
+          <div class="w-full">
+            <img src="dist/img/pengalaman/pengalaman-1.jpg" class="w-full bg-cover" alt="">
+          </div>
+          <h4 class="text-base font-bold text-secondary px-3 pt-2 pb-1">Digital Marketing Specialist</h4>
+          <p class="text-sm font-medium text-slate-500 px-3">Mulai Juni 2021</p>
+          <p class="text-sm font-medium text-slate-500 px-3">Politeknik Citra Widya Edukasi</p>
+          <span class="block my-6">
+          <a href="#home" class="btn-primary mx-3 my-10 hover:opacity-90 hover:shadow-lg">Selengkapnya</a>
+          </span>
+        </div>
+        <div class="bg-slate-200 mx-3 rounded-lg border-2 border-solid border-slate-100 shadow-lg inline-block my-3 sm:w-64 md:w-[30%] lg:w-[30%]">
+          <div class="w-full">
+            <img src="dist/img/pengalaman/pengalaman-2.jpg" class="w-full bg-cover" alt="">
+          </div>
+          <h4 class="text-base font-bold text-secondary px-3 pt-2 pb-1">Staff Pustakawan</h4>
+          <p class="text-sm font-medium text-slate-500 px-3">Mulai Desember 2027</p>
+          <p class="text-sm font-medium text-slate-500 px-3">DISPUSIP Kota Bandung</p>
+          <span class="block my-6">
+          <a href="#home" class="btn-primary mx-3 my-10 hover:opacity-90 hover:shadow-lg">Selengkapnya</a>
+          </span>
+        </div>
+        <div class="bg-slate-200 mx-3 rounded-lg border-2 border-solid border-slate-100 shadow-lg inline-block my-3 sm:w-64 md:w-[30%] lg:w-[30%]">
+          <div class="w-full">
+            <img src="dist/img/pengalaman/pengalaman-3.jpg" class="w-full bg-cover" alt="">
+          </div>
+          <h4 class="text-base font-bold text-secondary px-3 pt-2 pb-1">Staff Pustakawan</h4>
+          <p class="text-sm font-medium text-slate-500 px-3">Mulai Juni 2019</p>
+          <p class="text-sm font-medium text-slate-500 px-3">Perpustakaan Dinas Sejarah TNI AD</p>
+          <span class="block my-6">
+          <a href="#home" class="btn-primary mx-3 my-10 hover:opacity-90 hover:shadow-lg">Selengkapnya</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Pendidikan Section End -->
+
+  <!-- Footer Start -->
+  <footer class="bottom-0 left-0 bg-slate-800 w-full max-h-full">
+    <div class="container mx-auto flex flex-wrap justify-between py-10">
+      <div class="contact mx-10 text-slate-400 mb-5">
+        <h1 class="capitalize text-xl text-slate-200 font-bold mb-2">Contact</h1>
+        <h1 class="capitalize text-base text-primary font-bold mb-2">windi ramadhan</h1>
+        <h4 class="text-xs mb-1"><i class="fa-solid fa-location-dot"></i> Jl. Raya Tambaksari No.47</h4>
+        <h4 class="text-xs mb-1"><i class="fa-brands fa-whatsapp"></i> +6285759081973</h4>
+        <h4 class="text-xs"><i class="fa-solid fa-envelope"></i> windiramadhan80@gmail.com</h4>
+      </div>
+      <div class="contact mx-10 text-slate-400 mb-5">
+        <h1 class="capitalize text-xl text-slate-200 font-bold mb-2">Contact</h1>
+        <h1 class="capitalize text-base text-primary font-bold mb-2">windi ramadhan</h1>
+        <h4 class="text-xs mb-1"><i class="fa-solid fa-location-dot"></i> Jl. Raya Tambaksari No.47</h4>
+        <h4 class="text-xs mb-1"><i class="fa-brands fa-whatsapp"></i> +6285759081973</h4>
+        <h4 class="text-xs"><i class="fa-solid fa-envelope"></i> windiramadhan80@gmail.com</h4>
+      </div>
+      <div class="contact mx-10 text-slate-400 mb-5">
+        <h1 class="capitalize text-xl text-slate-200 font-bold mb-2">Contact</h1>
+        <h1 class="capitalize text-base text-primary font-bold mb-2">windi ramadhan</h1>
+        <h4 class="text-xs mb-1"><i class="fa-solid fa-location-dot"></i> Jl. Raya Tambaksari No.47</h4>
+        <h4 class="text-xs mb-1"><i class="fa-brands fa-whatsapp"></i> +6285759081973</h4>
+        <h4 class="text-xs"><i class="fa-solid fa-envelope"></i> windiramadhan80@gmail.com</h4>
+      </div>
+    </div>
+    <div class="mx-auto py-3 text-center bg-slate-900 text-slate-200 font-thin">
+      <div><span>&copy</span><span class="text-xs">Copyright</span> <a href="http://windiramadhan.my.id" class="text-xs hover:text-primary" target="_blank">Windi Ramadhan 2022</a> </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+
+
+  <!-- all.js loads all styles and icons -->
+  <script defer src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+  <!-- Our project just needs Font Awesome Solid + Brands -->
+  <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+  <script defer src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+  <script defer src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+
+  <!-- My Javascript -->
+  <script src="dist/js/script.js"></script>
+</body>
+</html>
